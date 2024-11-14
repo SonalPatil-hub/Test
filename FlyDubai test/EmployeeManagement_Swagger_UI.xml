@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmployeeManagement</name>
+    </assembly>
+    <members>
+        <member name="M:EmployeeManagement.Controllers.EmployeeController.SearchEmployee(EmployeeManagement.Models.Request.Employee.EmployeeSearchRequest)">
+            <summary>
+            Get employee list with given serach criteria
+            </summary>
+            <param name="employeeSearchRequest"></param>
+            <returns>Employee Response list</returns>
+        </member>
+        <member name="M:EmployeeManagement.Controllers.SecurityController.Login(EmployeeManagement.Models.Request.Security.LoginRequest)">
+            <summary>
+            Action method responding to POST requests on "api/Users/Login".
+            </summary>
+            <param name="request">Login request</param>
+            <returns>Token</returns>
+        </member>
+        <member name="M:EmployeeManagement.Repository.EmployeeRepository.GetEmployeeData(EmployeeManagement.Models.Request.Employee.EmployeeSearchRequest)">
+            <summary>
+            Get the data from employee table with given serach criteria
+            </summary>
+            <param name="employeeSearchRequest"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
